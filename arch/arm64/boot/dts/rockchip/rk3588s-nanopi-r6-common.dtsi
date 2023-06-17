@@ -661,7 +661,6 @@
 	assigned-clocks = <&cru ACLK_VOP>;
 	assigned-clock-rates = <800000000>;
 	status = "okay";
-	disable-win-move;
 };
 
 &vop_mmu {
