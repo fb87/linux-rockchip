@@ -63,7 +63,7 @@ static const struct file_operations rk_iomux_fops = {
 	.compat_ioctl	= compat_ptr_ioctl,
 };
 
-static __init int rk_iomux_device_create(void)
+static int __init rk_iomux_device_create(void)
 {
 	struct rk_iomux_device *cdev;
 	int ret;
